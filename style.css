@@ -1,0 +1,95 @@
+*{
+    text-align: center;
+}
+
+h1 , h2 ,#hide label{
+    color: #5b0e2d;
+}
+#hide label{
+    font-weight: bolder;
+
+}
+
+#container{
+    width: 50%;
+    height: 40%;
+    margin: 0 auto;
+    background-color:#ffa781;
+
+   padding: 4rem;
+}
+
+.page-banner{
+    padding: 1rem;
+}
+
+
+#book-list{
+    margin: 0 auto;
+    /* background-color: skyblue; */
+    width: 60%;
+
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    letter-spacing: 0.08rem;
+     font-weight: bolder;
+    color: #5b0e2d;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+
+.delete{
+    color: #fff;
+    padding: 1rem;
+    background-color: #5b0e2d;
+    border-radius: 10%;
+    margin-left: 12rem;
+}
+
+#search{
+    border: 0.1rem solid #5b0e2d;
+    padding: 1rem;
+    width: 50%;
+}
+
+#add-books input{
+    border: 0.1rem solid #5b0e2d;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 44%;
+}
+#hide{
+    padding: 1rem;
+    margin: 1rem;
+}
+#add-books button{
+    color: #fff;
+  padding: 1rem;
+    background-color: #5b0e2d;
+    border-radius: 10%;
+}
+
+@media screen and (max-width: 420px) {
+h1{
+    font-size: 1.4rem;
+}
+h2{
+    font-size: 1rem;
+}
+form label{
+    font-size: 0.8rem;
+}
+#search , #add-books input , #add-books button {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+}
+}
